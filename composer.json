@@ -1,5 +1,5 @@
 {
-    "name": "youmad/endurance-activity-analysis",
+    "name": "endurance/activity-analysis",
     "description": "Streaming GPS distance, speed and movement estimates for recorded activities",
     "type": "library",
     "license": "MPL-2.0",
@@ -8,12 +8,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Youmad\\Endurance\\ActivityAnalysis\\": "src/"
+            "Endurance\\ActivityAnalysis\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Youmad\\Endurance\\ActivityAnalysis\\Tests\\": "tests/"
+            "Endurance\\ActivityAnalysis\\Tests\\": "tests/"
         }
     },
     "require-dev": {

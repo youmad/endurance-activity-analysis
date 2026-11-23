@@ -3,11 +3,11 @@
 Streaming GPS distance, speed and movement estimates for PHP 8.5.
 
 ```bash
-composer require youmad/endurance-activity-analysis
+composer require endurance/activity-analysis
 ```
 
 ```php
-use Youmad\Endurance\ActivityAnalysis\TrackAnalyzer;
+use Endurance\ActivityAnalysis\TrackAnalyzer;
 
 $analyzer = new TrackAnalyzer();
 $analyzer->push(50.35294, 65.93432, 0, 1);

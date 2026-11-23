@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\ActivityAnalysis;
+namespace Endurance\ActivityAnalysis;
 
 final readonly class TrackStep
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\ActivityAnalysis\Tests;
+namespace Endurance\ActivityAnalysis\Tests;
 
+use Endurance\ActivityAnalysis\TrackAnalyzer;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\ActivityAnalysis\TrackAnalyzer;
 
 final class TrackAnalyzerTest extends TestCase
 {
